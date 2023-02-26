@@ -3,14 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BasiccheckComponent } from './basiccheck/basiccheck.component';
+import { AdvancecheckComponent } from './advancecheck/advancecheck.component';
+import { FinalcheckComponent } from './finalcheck/finalcheck.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasiccheckComponent,
+    AdvancecheckComponent,
+    FinalcheckComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

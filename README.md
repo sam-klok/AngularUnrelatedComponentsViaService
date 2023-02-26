@@ -1,3 +1,12 @@
+Here I'm trying to send messages between unrelated components.
+It's a bit hard task in Angular, so I have to use service.
+
+It based on example:
+https://www.dotnettricks.com/learn/angular/sharing-data-between-angular-components-methods
+
+
+
+
 # AngularUnrelatedComponentsViaService
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
