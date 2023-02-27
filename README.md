@@ -1,11 +1,21 @@
 Here I'm trying to send messages between unrelated components.
 It's a bit hard task in Angular, so I have to use service.
 
-It based on example:
+1. It based on example:
 https://www.dotnettricks.com/learn/angular/sharing-data-between-angular-components-methods
 
 
+2. Sometimes we need to clear input box, so I did it in basic check componenent
+It's based on article: Clearing an input text field in Angular2
+https://stackoverflow.com/questions/41483914/clearing-an-input-text-field-in-angular2
 
+
+Thank you,
+Serge Klokov
+
+
+
+Standard info below:
 
 # AngularUnrelatedComponentsViaService
 

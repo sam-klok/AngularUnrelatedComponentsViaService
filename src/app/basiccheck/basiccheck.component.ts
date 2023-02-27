@@ -12,7 +12,11 @@ export class BasiccheckComponent implements OnInit {
   constructor(private appService:ApprovalService) { }
 
   ngOnInit(): void {
-    this.appService.currentApprovalStageMessage.subscribe(msg => this.message = msg);
+    this.appService.currentApprovalStageMessage.subscribe(
+      msg => {
+        this.message = msg; 
+        this.approvalText = msg;  // we will clear input box text too
+      });
   }
 
   submit()

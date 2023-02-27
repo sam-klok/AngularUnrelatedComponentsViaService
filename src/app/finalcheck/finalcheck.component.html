@@ -4,7 +4,11 @@
     <form>
         <div class="form-group">
             <label for="approvalText">User Name</label>
-            <input type="text" name="approvalText" [(ngModel)]="approvalText" class="form-control" id="approvalText" >
+            <input type="text" 
+                name="approvalText" 
+                [(ngModel)]="approvalText" 
+                class="form-control" 
+                id="approvalText" >
         </div>
         <button (click)="submit()">Approve Final</button>
     </form>
